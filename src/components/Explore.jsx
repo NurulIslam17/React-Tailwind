@@ -3,7 +3,7 @@ import explore from '../assets/img/explore1.png'
 
 function Explore() {
   return (
-    <div className='max-w-[1240px] mx-auto py-5 md:grid grid-cols-2'>
+    <div className='max-w-[1240px] mx-auto py-[50px] md:grid grid-cols-2'>
         <div className='col-span-1 w-[80%]'>
             <img src={explore} alt="explore" />
         </div>
