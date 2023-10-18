@@ -11,7 +11,7 @@ function Project() {
       <div className="md:grid grid-cols-4 p-3 mb-3">
         {/* 1 */}
         <div className="h-[500px] bg-[#f1f2f6] m-2 shadow-inner mb-5">
-          <img src={DofImage} className="w-full h-[50%]" />
+          <img src={DofImage} alt="img" className="w-full h-[50%]" />
 
           <h1 className="text-center font-bold text-2xl py-2">
             Department Of Fisheries
@@ -26,7 +26,7 @@ function Project() {
         </div>
         {/* 2 */}
         <div className="h-[500px] bg-[#f1f2f6] m-2 shadow-inner mb-3">
-          <img src={DofImage} className="w-full h-[50%]" />
+          <img src={DofImage} alt="img" className="w-full h-[50%]" />
 
           <h1 className="text-center font-bold text-2xl py-2">
             Department Of Fisheries
@@ -41,7 +41,7 @@ function Project() {
         </div>
         {/* 2 */}
         <div className="h-[500px] bg-[#f1f2f6] m-2 shadow-inner mb-3">
-          <img src={DofImage} className="w-full h-[50%]" />
+          <img src={DofImage} alt="img" className="w-full h-[50%]" />
 
           <h1 className="text-center font-bold text-2xl py-2">
             Department Of Fisheries
@@ -56,7 +56,7 @@ function Project() {
         </div>
         {/* 2 */}
         <div className="h-[500px] bg-[#f1f2f6] m-2 shadow-inner mb-3">
-          <img src={DofImage} className="w-full h-[50%]" />
+          <img src={DofImage} alt="img" className="w-full h-[50%]" />
 
           <h1 className="text-center font-bold text-2xl py-2">
             Department Of Fisheries
