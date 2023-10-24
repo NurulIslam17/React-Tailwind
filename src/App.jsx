@@ -5,6 +5,7 @@ import Process from "./components/Process";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Project from "./components/Project";
+import Tech from "./components/Tech";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Banner/>
       <Explore/>
       <Process/>
+      <Tech/>
       <Project/>
       <Footer/>
     </>
