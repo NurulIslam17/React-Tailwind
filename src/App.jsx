@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Project from "./components/Project";
 import Tech from "./components/Tech";
+import Client from "./components/Client";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Explore/>
       <Process/>
       <Tech/>
+      <Client/>
       <Project/>
       <Footer/>
     </>
