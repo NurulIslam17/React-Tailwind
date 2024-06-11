@@ -8,7 +8,7 @@ function Header() {
     <div className='bg-[#dfe4ea] p-4'>
         <div className='max-w-[1240px] mx-auto item-center flex justify-between'>
             <div className='text-3xl font-bold'>
-                DevSoft
+                @Soft
             </div>
             {
               toggle ? 
@@ -17,18 +17,12 @@ function Header() {
               <FaAngleRight onClick={()=> setToggle(!toggle)} className='text-2xl md:hidden block'/>
             }
             <ul className='hidden md:flex bg justify-between gap-4'>
-                <li>Home</li>
-                <li>Service</li>
-                <li>About</li>
                 <li>Contact</li>
             </ul>
 
             {/* Responsive menu */}
 
             <ul className={`duration-300 md:hidden h-screen w-full fixed bg-[#ced6e0] top-[68px] ${toggle ? 'left-[-100%]' : 'left-[0]'}`}>
-                <li className='p-2'>Home</li>
-                <li className='p-2'>Service</li>
-                <li className='p-2'>About</li>
                 <li className='p-2'>Contact</li>
             </ul>
         </div>

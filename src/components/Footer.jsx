@@ -18,27 +18,27 @@ function Footer() {
                     <h1 className='font-bold text-[25px] text-center mb-3'>Connnect Us.</h1>
                     <h1 className='font-bold text-[15px] pb-5'>Social Links:</h1>
                     <div className='flex flex-row'>
-                        <a href="https://www.facebook.com/profile.php?id=100016800183418" target='_blank' className='text-3xl pe-3' ><FaFacebook/></a>
-                        <a href="https://www.linkedin.com/in/nurul-islam-5732461b3/"  target='_blank'  className='text-3xl pe-3' ><FaLinkedin/></a>
-                        <a href="https://www.instagram.com/nurul_istagram/"  target='_blank' className='text-3xl pe-3' ><FaSquareInstagram/></a>
-                        <a href="#" className='text-3xl pe-3' ><FaSquareXTwitter/></a>
-                        <a href="#" className='text-3xl pe-3' ><FaSquareWhatsapp/></a>
+                        <a href="https://www.facebook.com/profile.php?id=100016800183418"  className='text-3xl pe-3' ><FaFacebook/></a>
+                        <a href="https://www.linkedin.com/in/nurul-islam-5732461b3/"    className='text-3xl pe-3' ><FaLinkedin/></a>
+                        <a href="https://www.instagram.com/nurul_istagram/"  className='text-3xl pe-3' ><FaSquareInstagram/></a>
+                        <a href="/" className='text-3xl pe-3' ><FaSquareXTwitter/></a>
+                        <a href="/" className='text-3xl pe-3' ><FaSquareWhatsapp/></a>
                     </div>
                     <h1 className='font-bold text-[15px] py-3'>Others:</h1>
                     <div className='flex flex-row'>
-                        <a href="https://github.com/NurulIslam17" target='_blank' className='text-3xl pe-3' ><FaSquareGithub/></a>
-                        <a href="#" className='text-3xl pe-3' ><FaStackOverflow/></a>
+                        <a href="https://github.com/NurulIslam17"  className='text-3xl pe-3' ><FaSquareGithub/></a>
+                        <a href="/" className='text-3xl pe-3' ><FaStackOverflow/></a>
                     </div>
     
                 </div>
                 <div className='w-[100%] p-3'>
                     <h1 className='font-bold text-[25px] text-center'>About</h1>
-                    <p className='text-justify'>A Software Dvelopment company serving more than 50 companies since 2010. We belive in customer satisfaction and provide best sulutation to client as they are acpected.</p>
+                    <p className='text-justify'>A Software Dvelopment community serving more than 5 years. We belive in customer satisfaction and provide best sulutation to client as they are acpected.</p>
                 </div>
             </div>
         </div>
         <div>
-            <p className='text-center py-3'>&#169;  All Right Reserved By DevSoft. 2023</p>
+            <p className='text-center py-3'>&#169;  All Right Reserved By @Soft. 2024</p>
         </div>
     </div>
   )
